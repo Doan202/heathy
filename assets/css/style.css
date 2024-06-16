@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  margin-top: 30px;
+}
+.intro .bg-primary {
+  background-color: #ff8200 !important;
+}
+.intro .bg-primary .b-header {
+  position: relative;
+  min-height: 120px;
+  padding-left: 200px;
+}
+.intro .bg-primary .b-header P {
+  color: #fff !important;
+  font-size: 18px;
+  padding: 19.3px auto 22.3px;
+}
+.intro .bg-primary .b-header ::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/icon1.png);
+  width: 160px;
+  height: 100%;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+}
+
+.b-list .item .icon img {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  border: solid 3px #ff8c00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.b-list .note {
+  margin-left: 35px;
+}
+.b-list .text h5 {
+  color: #fe4d0b;
+}
+.b-list .text ul li ::marker {
+  color: #fe4d0b;
+}
+.b-list .text P {
+  text-align: center;
+  margin-bottom: 0;
+}
+.b-list .text img {
+  width: 100%;
+}
+
+.b-footer {
+  position: relative;
+  padding-top: 130px;
+}
+.b-footer .logo {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 88px;
+}
+.b-footer::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 120px;
+  width: 100%;
+  border-radius: 0 0 200px 0;
+  z-index: 0;
+}
+
+.bg-purple-black {
+  background-color: #fe4d0b !important;
+}
+
+.text-end {
+  text-align: right !important;
+}
+
+.banner .text-data img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
