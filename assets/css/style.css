@@ -66,7 +66,7 @@
   border-style: solid;
   border-width: 0;
 }
-.b-list .text table .table-data tr:first-child td:first-child {
+.b-list .text table tr:first-child td:first-child {
   border-radius: 20px 0 0 0;
 }
 .b-list .text table .row-heading {
@@ -78,6 +78,13 @@
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  border: solid 1px #fff;
+}
+.b-list .text table tr td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px;
+  border: solid 1px #fff;
 }
 .b-list .text table tr:nth-child(n+2) td:first-child {
   text-align: left;
@@ -86,14 +93,8 @@
   background-color: rgb(255, 140, 0) !important;
   color: rgb(255, 255, 255);
 }
-.b-list .text table tr td {
-  vertical-align: middle;
-  text-align: center;
-  padding: 5px;
-  border: solid 1px #fff;
-}
 .b-list .text table td:nth-child(n+2) {
-  border: solid 1px #FE4D0B;
+  border: solid 1px #fe4d0b !important;
 }
 
 .b-footer {

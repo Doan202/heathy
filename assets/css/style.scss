@@ -73,7 +73,7 @@
 				border-style: solid;
 				border-width: 0;
 			}
-			.table-data tr:first-child td:first-child {
+			tr:first-child td:first-child {
 				border-radius: 20px 0 0 0;
 			}
 			.row-heading {
@@ -85,6 +85,13 @@
 				border-color: inherit;
 				border-style: solid;
 				border-width: 0;
+				border: solid 1px #fff;
+				td {
+					vertical-align: middle;
+					text-align: center;
+					padding: 5px;
+					border: solid 1px #fff;
+				}
 			}
 			tr:nth-child(n + 2) td:first-child {
 				text-align: left;
@@ -93,14 +100,8 @@
 				background-color: rgb(255, 140, 0) !important;
 				color: rgb(255, 255, 255);
 			}
-			tr td {
-				vertical-align: middle;
-				text-align: center;
-				padding: 5px;
-				border: solid 1px #fff;
-			}
-			td:nth-child(n+2) {
-				border: solid 1px #FE4D0B;
+			td:nth-child(n + 2) {
+				border: solid 1px #fe4d0b !important;
 			}
 		}
 	}
