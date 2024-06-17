@@ -44,9 +44,6 @@
 .b-list .item .icon .w-100 {
   width: 100% !important;
 }
-.b-list .note {
-  margin-left: 35px;
-}
 .b-list .text h5 {
   color: #fe4d0b;
 }
@@ -59,6 +56,44 @@
 }
 .b-list .text img {
   width: 100%;
+}
+.b-list .text table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+.b-list .text table tbody {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.b-list .text table .table-data tr:first-child td:first-child {
+  border-radius: 20px 0 0 0;
+}
+.b-list .text table .row-heading {
+  background-color: #fe4d0b !important;
+  color: #fff;
+  font-weight: bold;
+}
+.b-list .text table tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.b-list .text table tr:nth-child(n+2) td:first-child {
+  text-align: left;
+}
+.b-list .text table .row-title {
+  background-color: rgb(255, 140, 0) !important;
+  color: rgb(255, 255, 255);
+}
+.b-list .text table tr td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px;
+  border: solid 1px #fff;
+}
+.b-list .text table td:nth-child(n+2) {
+  border: solid 1px #FE4D0B;
 }
 
 .b-footer {
